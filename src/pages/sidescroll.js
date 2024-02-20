@@ -31,7 +31,6 @@ function Sidescroll() {
         <img className="image" alt="" src={img3replacement} draggable="false" />
         <img className="image" alt="" src={lastdayofsummer} draggable="false" />
       </div>
-      <script src="./sidescrollcode.js"></script>
     </div>
   );
 }
