@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./sidescroll.css";
 import img7 from "./images/7.jpg";
 import img11 from "./images/11.jpg";
