@@ -5,6 +5,22 @@ body {
   margin: 0rem;
   overflow: hidden;
 }
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  user-select: none;
+}
+
+#image-track > .image {
+  width: 32vmin;
+  height: 44.8vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
 .header {
   display: flex;
   text-align: center;
@@ -52,27 +68,4 @@ body {
 .projects-button:hover {
   color: white;
   transition: color 0.15s ease;
-}
-
-#image-track {
-  display: flex;
-  gap: 4vmin;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(0%, -50%);
-  user-select: none;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-}
-
-#image-track > .image {
-  width: 32vmin;
-  height: 44.8vmin;
-  object-fit: cover;
-  object-position: 100% center;
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-  user-select: none;
-  -webkit-user-drag: none;
 }
